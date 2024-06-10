@@ -16,7 +16,7 @@ long_description = "\n\n".join(
 
 setup(
     name="collective.flexmailhost",
-    version="1.0a1",
+    version="1.0a2.dev0",
     description="Sync mail setttings to MailHost rather than patching it. Allows multiple MailHosts per Plone site.",
     long_description=long_description,
     # Get more from https://pypi.org/classifiers/
