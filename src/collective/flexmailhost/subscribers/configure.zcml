@@ -4,10 +4,9 @@
 
  <!-- -*- extra stuff goes here -*- -->
 
-  <subscriber for="plone.dexterity.interfaces.IDexterityContent
-                   zope.lifecycleevent.interfaces.IObjectModifiedEvent"
+  <subscriber for="Products.CMFPlone.interfaces.IMailSchema
+                   plone.registry.interfaces.IRecordModifiedEvent"
               handler=".sync_mailhost_settings.handler"
               />
-
 
 </configure>
